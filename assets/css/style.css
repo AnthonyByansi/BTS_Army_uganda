@@ -1,15 +1,6 @@
-/*******************************************************
-    Template Name    : One Solutions - Business & Services Free Landing Page Template
-*******************************************************/
-
 @import url("odometer.min.css");
-
-/**************************************
- * Generale Style
- *************************************/
-
 body {
-    background: #fff;
+    background: #737373;
     color: #333;
     font-family: "Mukta", sans-serif;
     font-size: 16px;
@@ -25,6 +16,10 @@ body {
     box-sizing: border-box;
 }
 
+.about-content-text.text-left {
+    font-size: x-large;
+}
+
 .navbar-b::after {
     position: absolute;
     left: 0;
@@ -35,6 +30,15 @@ body {
     margin: 0 auto;
     height: 30%;
     background-image: url(../img/home-top-shape.png);
+}
+
+@keyframes scroll {
+    from {
+        background-position: left calc(4.84 * min(100vh, 750px)) top 0px;
+    }
+    to {
+        background-position: left 0px top 0px;
+    }
 }
 
 h1 {
